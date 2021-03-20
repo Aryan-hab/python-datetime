@@ -1,2 +1,2 @@
 # python_datetime
-calculating time passed since a something is posted
+calculating time passed since something is posted (e.g., your website, application, etc..)
