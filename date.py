@@ -1,11 +1,11 @@
 def time_ago(self):
         now = datetime.datetime.now()
 
-        delta = now - self.publish # where publish is the time the comment is published
+        delta = now - self.publish # where publish is the time the comment is published on
 
-        format_delta = delta.total_seconds() # calculating total seconds since the comment is posted
+        format_delta = delta.total_seconds() # calculating total seconds since the comment was posted
 
-        # converting seconds to years, months, days, hours, minutes :
+        # converting seconds to years, months, days, hours and minutes :
 
         years = format_delta // (60 * 60 * 24 * 30 * 12)
 
